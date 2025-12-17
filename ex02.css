@@ -1,0 +1,13 @@
+h1 {color: salmon;}
+h1{background-color: blueviolet;}
+#div1 {background-color: darkgreen; width: 200px; height: 100px;}
+.class1 {color: white; background-color: black; font-size: 20px;width: 200px; height: 100px;}
+.class2 {color: black; background-color: blanchedalmond; font-size: 20px;width: 200px; height: 100px;}
+#div1,.class1,.class2{color: whitesmoke;width: 400px;height: 400px;font-size: 200px;}
+
+
+#div2{width: 200px;}
+.class3{height: 200px; background-color: coral;}
+h3{background-color: tan;}
+.h3{background-color: teal;}
+#h3{background-color: tomato;border: 1px solid black;}

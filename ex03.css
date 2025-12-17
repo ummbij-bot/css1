@@ -1,0 +1,16 @@
+#div1{width: 200px; height: 200px; background-color: lightgray;}
+#div1 h3 {color: darkblue;}
+#div2{width: 200px; height: 200px; background-color: lightgoldenrodyellow;}
+#div2 > h3 {color:  blue;}
+#div3{width: 200px; height: 200px; background-color: lightpink;}
+#div3 > div > h3 {color: darkred;}
+#div4 ~ div{background-color: aquamarine;}
+#div4 + div{background-color: bisque;}
+#div5 h3:nth-child(2){background-color: aliceblue;}
+#div5 h4:nth-child(6){background-color: lightpink;}
+#div5 h4:nth-last-of-type(3){background-color: antiquewhite;}
+*{margin: 10;padding: 10;}
+#div6,#div7,#div8{width: 50; height: 50px;}
+#div6{background-color: #BEEEE2;}
+#div7{background-color: rgb(45, 155, 155);}
+#div8{background-color: rgb(2, 47, 20);}
