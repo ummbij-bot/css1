@@ -1,0 +1,26 @@
+#div1 {background-color: wheat;display: inline; text-align: center;width: 100px;height: 100px;}
+#h1{background-color: aqua;width: 100px;height: 100px;}
+#span{background-color: beige;display: none; text-align: center;width: 100px;height: 100px;}
+#a{background-color: blueviolet;width: 100px;height: 100px;}
+
+/* inline:사이즈 조정 안되고 가로배치
+    block:사이즈 조정 가능,엔터 작용
+    inline-block:사이즈 조정 가능, 가로 배치
+    none: 숨김 */
+
+    #div2 {background-color: black;width: 100px;height: 100px;} 
+    #div3 {background-color: brown;height: 100px;width: 100px;} 
+    #div4 {background-color: aqua;height: 50px;}
+  
+    #div5 {background-color: bisque;width: 100;height: 100px;}
+    img{width: 100px;height: 100px;display: none;}
+   
+    /* 
+    #div5:hover > img {display: block;}
+    #div5 :hover >div {display: none;} 
+    */
+    /* #div5:hover {& img display: block;}
+    $ > div {display: none;} */
+    #div5{background-color: aqua;
+    & : :hover > img {display: block;}
+& >div {display: none;}}

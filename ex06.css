@@ -1,0 +1,31 @@
+#div6 {
+    width: 200px;height: 500px; border: 1px rgb(10, 10, 10);
+    border-radius: 5px;
+}
+#dov6 div {overflow: hidden;width: 200;height: 200;}
+#img{
+    width: 200px;height: 200px;
+    & :hover{
+        transform: scale(1.5);
+        transition: all 1s;
+    }
+}
+#div5 {overflow: auto;
+    width: 100px;height: 100px; background-color: aqua;
+}
+
+a{color: black; text-decoration: none;}
+a:hover{
+    border-bottom: 3px solid lightpink;
+}
+
+
+
+
+
+#div1,#div2,#div3,#div4{width: 200px;height: 200px;}
+#div1 {border: 3px solid black}
+#div2 {border: 3px double blanchedalmond}
+#div3 {border: 3px dotted violet;border-radius: 20px;}
+#div4 {border: 1px dashed greenyellow;border-radius: 200px;overflow: hidden;}
+#div4 > img{width: 200px;height: 200px;}

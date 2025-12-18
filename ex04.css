@@ -1,0 +1,5 @@
+#div1, #div2,#div3{width: 200; height: 200; background-color: antiquewhite;}
+#div:hover{background-color ; width: 400px;}
+#div2> div {width: 100px; height: 100px; background-color: beige;}
+#div2:hover div{background-color: chartreuse ;  width: 100px; height: 100px;}
+#div3:hover + #div4{background-color: burlywood; width: 100px; height: 100px;}
