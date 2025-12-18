@@ -1,0 +1,16 @@
+#div2{width: 300px;border: 1px solid; display: flex;}
+#div2 > div {width: 150px;border: 1px solid salmon;}
+
+
+
+
+#div1 {
+    display: flex;
+        width:   300px; background: black;}
+    #div1 div{width: 100px;}
+
+
+    #div1  :nth-last-of-type(1){order:3; background-color: antiquewhite;}
+    #div1  :nth-last-of-type(2){order:2;background-color: azure;}
+    #div1  :nth-last-of-type(3){order:1;background-color: blue;}
+

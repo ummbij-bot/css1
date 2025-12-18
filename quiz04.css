@@ -1,0 +1,13 @@
+#wrab{background-color: sandybrown; width: 400px;margin: 0 auto;}
+
+#wrab > :nth-of-type(1) {background-color: aqua;}
+
+#wrab > :nth-of-type(2) {
+    display: flex;
+    height: 100px;background-color: antiquewhite;
+& > :nth-of-type(1) {width: 30%;background-color: black;}
+& > :nth-of-type(2){width: 70%;background-color: lawngreen;}
+
+}
+
+#wrab > :nth-of-type(3) {background-color: blue;}
