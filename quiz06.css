@@ -1,0 +1,22 @@
+ul { margin: 0; padding: 0;}
+li { list-style: none; width: 100px; text-align: center; 
+     height: 40px; line-height: 40px;
+}
+#nav {
+    width: 100px; background-color: cadetblue;
+}
+
+.menu1 {
+    margin-left: 100px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100px;
+    margin-top: -40px;
+    background-color: chocolate;
+}
+#menu li:hover .menu1 { 
+    /* display: block; */
+    height: 120px;
+    border: 1px solid;
+}

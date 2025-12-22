@@ -1,0 +1,8 @@
+#div1{width: 100px;height: 100px; background-color: aqua;transition: 1s;transition-delay: 1s;}
+#div1:hover{width: 300px;background-color: antiquewhite;}
+#nav{width: 300px;background-color: beige;}
+#menu{background-color: cadetblue;}
+.menu1{background-color: chartreuse;height: 0;overflow-y: hidden;transition: 0.5s;transition-delay: 0.5s ;}
+li{width: 100px; list-style: none;text-align: center;height: 30px;line-height: 30px;}
+ul{margin: 0 ;padding: 0;}
+#menu li:hover .menu1{height: 120px;}

@@ -1,0 +1,67 @@
+#div1{
+  width:200px;height:200px;background:antiquewhite;
+  animation: abc 10s;
+}
+@keyframes abc{
+  20%{ transform: translateX(400px); }
+}
+
+#div2{
+  width:200px;height:200px;background:black;
+  animation: aaa 10s;
+}
+@keyframes aaa{
+  50%{ transform: translateX(400px); background: azure; }
+}
+
+#div3{
+  width:200px;height:200px;background:brown;
+  animation: bbb 5s infinite;
+  animation-delay: 1s;
+}
+@keyframes bbb{
+  50%{ transform: translateX(400px); background: azure; }
+}
+
+#div4{
+  width:100px;height:100px;background:brown;
+  animation: bba 5s infinite;
+}
+@keyframes bba{
+  0%   { transform: translate(0,0); }
+  25%  { transform: translate(400px,0); }
+  50%  { transform: translate(400px,50px); }
+  75%  { transform: translate(0,50px); }
+  100% { transform: translate(0,0); }
+}
+
+/* 로딩 */
+#loading{ display:flex; }
+.logo{
+  width:200px;height:200px;background:aqua;
+  border-radius:50%;
+  margin:0 10px;
+  animation: loading 1s infinite;
+}
+@keyframes loading{
+  50%{ transform: scale(0); }
+}
+.logo:nth-child(2){ animation-delay: .2s; }
+.logo:nth-child(3){ animation-delay: .4s; }
+
+/* 블록 */
+#wrap{ width:100px; margin:200px auto; background:bisque; }
+.block{
+  width:50px;height:50px;margin-bottom:15px;background:aquamarine;
+  animation: block 1s infinite;
+}
+@keyframes block{
+  50%{ transform: translateX(50px); }
+}
+
+h1{position: relative;opacity: 0;}
+#left{left: 100px;animation: left 3s;animation-fill-mode:forwards;}
+#right{right: -50px;animation: right  3s;}
+@keyframes left{100%{left: -80px;opacity: 1;}}
+@keyframes right{100%{right: -80px;opacity: 1;}}
+
